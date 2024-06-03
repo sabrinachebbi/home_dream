@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+     margin: 0px;
+    /* height: 100%; */
+}
+/* start style of navbar */
+#logo{
+  
+    width: 360px;
+    height: 362px;
+    
+}
+#logo:hover{
+    animation: animation-logo 3s linear 0s infinite normal none;
+}
+@keyframes animation-logo {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(0.5);
+    }
+  }
+  
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position:relative;
+ bottom: 100px;
+
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+a {
+    font-size: 30px;
+    position: relative;
+    top:17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+   
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover{
+  text-decoration:underline;
+  color: red;
+}
+
+a:active {
+    color:red;
+    font-style:italic
+  }
+#link:hover{
+ text-decoration: none;
+}
+.sign-up{
+    border-radius: 10px;
+    font-size: 35px;
+    background-color: #48a9fe;
+    padding: 25px;
+
+}
+
+.sign-up:hover{
+  background-color: white;
+
+  
+}
+/* end style of navbar */
+
+
+/* start of principal picture */
+#principal{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    bottom: 150px;   
+}
+.title{
+    position: absolute;
+    text-align: center;
+    top:775px;
+    left: 44px;
+    color: white;
+    font-weight: bolder;
+   font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    animation: animation-title 4s linear 0s infinite normal none;
+   
+}
+@keyframes animation-title {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.2;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* end of style principal picture */
+
+/* start style of transition1 */
+section {
+    background-color: #b89270;
+    width: 100%;
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     position: relative;
+    bottom: 154px;
+   
+} 
+input,
+label {
+  width: 500px;
+  height: 68px;
+  border-radius: 8px;
+  
+  
+}
+.trait
+{
+height: 70px;
+border:1px solid white;
+}
+.search{
+width: 50px;
+height: 50px;
+  position: relative;
+    right: 58px;
+   top: 24px; 
+}
+.bt-S {
+    display: inline-block;
+    background-color: #b89270;
+    border-radius: 10px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    margin: 5px;
+    border: 1px #b89270 solid ;
+  }
+
+  .btn-S :after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s; 
+}
+  .bt-S:hover {
+    background-color:rgba(46, 44, 44, 0.217);
+  }
+  /* end style of transition1 */
+  
+  /* start style of contained */
+  .Rent{
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+  .pic1{
+    width: 150px;
+    height: 150px;
+  }
+  h2{
+    font-size: 65px;
+    color: black;
+    font-family: 'Jacques Francois', serif;
+    margin: 30px;
+  }
+  /* startstyle of card*/
+
+  main{
+    display: grid;
+    margin-left: 70px;
+    margin-right: 70px;
+    grid-template-columns:1fr 1fr 1fr;
+     grid-template-rows:1fr;
+    gap: 50px;
+
+  }
+  .card{
+    border: 3px black solid; 
+    width: 620px;
+    height: 850px;
+
+  }
+  .card:hover{
+    box-shadow: 2px 4px 14px 4px rgba(0, 0, 0, 0.51);
+  }
+  .house1{
+  
+    width: 100%;
+    height: 400px;
+}
+#add-favori{
+  position:relative;
+ width: 30px;
+ height: 30px;
+ left: 580px;
+ bottom :20px;
+}
+h4{
+  color: #d85757;
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  font-size: 25px;
+  height: 20px;
+   position: relative;
+  right: 8px;  
+  bottom:35px;
+}
+.h4_sale{
+  color: #d85757;
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  font-size: 25px;
+  height: 20px;
+   position: relative;
+  right: 8px;  
+  bottom:60px;
+}
+.price{
+  position: relative;
+  bottom: 485px;
+  left: 8px; 
+  width: 154px;
+  height: 45px;
+  background-color:white;
+  border: 1px  white solid;
+  border-radius: 1px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.position{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+  position: relative;
+  bottom:90px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+.picture1{
+  width: 30px;
+  height: 30px;
+  background-color: #b89270;
+}
+.details1{
+  display: flex;
+  background-color: #b89270;
+  align-items: center;
+  justify-content: space-evenly;
+ position :relative;
+ bottom: 120px;
+ height: 42px;
+ font-weight: bolder;
+}
+.pic-sale2{
+position: relative;
+bottom: 205px;
+width: 50px;
+height: 50px;
+}
+
+.pic-sale22{
+  position: relative;
+  bottom: 217px;
+  width: 50px;
+  height: 50px;
+  }
+p{
+position: relative;
+bottom: 100px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+padding: 10px;
+}
+.buttons1{
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+  bottom: 40px;
+  margin-bottom: -20px;
+  padding: 10px;
+}
+.bt{
+ background-color: #b89270;
+  border-radius: 5px;
+ font-weight: bolder;
+ width: 110px;
+position: relative;
+bottom: 40px;
+ font-size: 22px;
+}
+.btt{
+ background-color: #b89270;
+   border-radius: 5px;
+  font-weight: bolder;
+  width: 110px;
+ position: relative;
+ bottom: 90px;
+  font-size: 22px;
+ }
+/* end style of cards */
+
+/* start of transition2 */
+#title2{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 65px;
+  margin-top: 140px;
+  font-family: 'Jacques Francois', serif;
+  margin-bottom: 40px;
+  
+}
+article{
+  display: flex; 
+  justify-content: space-evenly;
+}
+.part1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pic3{
+  width: 200px;
+  height: 200px;
+  margin-top: 70px;
+} 
+.pic2{
+  width: 300px;
+  height: 300px;
+ 
+} 
+.title-pic3 {
+font-family: 'Kanit', sans-serif;
+position: relative;
+bottom:13px;
+font-size: 30px;
+font-weight: bolder;
+margin-top: 9px;
+color: #7e654e;
+
+}
+.title-pic1{
+  font-family: 'Kanit', sans-serif;
+position: relative;
+bottom: 21px;
+font-size: 30px;
+font-weight: bolder;
+margin-top: 47px;
+color: #7e654e;
+}
+.parag-pic3{
+  position: relative;
+  bottom: 0px;
+  left: 19px;
+  align-items:flex-start;
+  font-size: 25px;
+ 
+}
+.title-pic2{
+  font-family: 'Kanit', sans-serif;
+position: relative;
+bottom: 23px;
+font-size: 30px;
+font-weight: bolder;
+margin-top: 49px;
+color: #7e654e;
+
+}
+/* end style of transition2 */
+.sale{
+  display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.pic-sale{
+  width: 220px;
+  height: 175px;
+  
+}
+.locate{
+  width: 40px;
+  height: 40px;
+}
+/* start of style card-sale */
+.see-more{
+  width: 189px;
+  height: 62px;
+position: relative;
+left: 2015px; 
+background-color: #48a9fe;
+border: 1px black solid;
+font-size: 30px;
+bottom: 80px;
+font-weight: bolder;
+  
+}
+.see-more:hover{
+  background-color: white;
+  border: 5px #48a9fe solid;
+}
+.position1{
+  display: flex;  
+  align-items: flex-end;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+  position: relative;
+  bottom: 100px;
+}
+#add-favori1{
+  position: relative;
+ width: 30px;
+ height: 30px;
+ left: 560px;
+ bottom:15px;
+}
+.price1{
+  position: relative;
+  bottom: 546px;
+  left: 4px; 
+  width: 154px;
+  height: 45px;
+  border: 1px  white solid;
+  border-radius: 1px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  
+}
+.pic-sale1{
+  position: relative;
+  bottom: 262px;
+  right: 0px;
+  width: 70px;
+  height: 70px;
+}
+.details2{
+  display: flex;
+ background-color: #b89270;
+  align-items: center;
+  justify-content: space-evenly;
+ position :relative;
+ bottom: 120px;
+ height: 42px;
+ font-weight: bolder;
+}
+.parag-sale{
+  position: relative;
+bottom: 120px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+padding: 10px;
+}
+/* end style of cards sale */
+
+/* start style of transition3 */
+.transi{
+  display: flex;
+  margin-top: 160px;
+  -ms-flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-bottom: 11px;
+  margin-top: 100px;
+}
+.picture-greece{
+  width: 100%;
+  height: 641px;
+  position: relative;
+  bottom: 75px;
+  left: 10px;
+  border-radius: 5px;
+}
+.picture-greece:hover{
+  box-shadow: 2px 4px 14px 4px rgba(22, 80, 207, 0.51);
+}
+.parag-greece{
+  font-size: 20px;
+  font-family: 'Inknut Antiqua', serif;
+  margin-top: 60px;
+}
+h5{
+   font-size: 35px; 
+   font-family: 'Mochiy Pop P One', sans-serif;
+text-align: center;
+}
+/* end style of transition3 */
+
+/* start style footer */
+.footer1{
+  background-color:#b89270 ;
+  height: 400px;
+ margin-top: 70px;
+ width: 100%;
+}
+h6{
+  font-family: 'Mochiy Pop P One', sans-serif; 
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 65px;
+}
+
+.footer2{
+  background-color:black;
+  height: 500px;
+  color: white;
+
+}
+form{
+  text-align: center;
+}
+.btn-footer{
+  width: 124px;
+  height: 71px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.footer-part2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.company{
+  display: flex;
+  flex-direction: column;
+  margin-top: 68px;
+}
+.lien-footer{
+  color: rgb(145, 142, 142);
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top:40px;
+
+}
+.style-title{
+  font-size: 30px;
+}
+.F{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.T{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.End{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+.Social-media:hover{
+  box-shadow: 3px 0px 14px 7px rgba(247, 247, 247, 1);
+  background-color: white;
+}
+/* end  style footer */ 
+.titre_immobilier{
+  position: absolute;
+  top: 220px;
+  left: 680px;
+  font-size: 50px;
+  color:#3f8ad8;
+}
+.form-group{
+  font-size: x-large;
+}
+.envoyer{
+  background-color: black;
+  color: #eeeeee;
+  font-size: x-large;
+}
+#choix{
+font-size: 30px;
+width: 500px;
+}
+#photo_form{
+  font-size: 30px;
+  width: 240px;
+  border-radius: 0px;
+}
+#photo_label{
+ display: flex; 
+ align-items: center;
+ justify-content:center;
+ position: relative;
+ left:38%;
+ top: 20px;
+
+}
